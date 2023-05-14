@@ -16,27 +16,23 @@ public class Main {
 
         fillPhrases();
 
-
+        /** Создание 6-ти потоков */
         Performansist Joey = new Performansist(JoeyPhrases,"Joey");
         Performansist Chandler = new Performansist(ChandlerPhrases, "Chandler");
         Performansist Monica = new Performansist(MonicaPhrases, "Monica");
         Performansist Phoebe = new Performansist(PhoebePhrases,"Phoebe");
-
-
-        int c = Performansist.getPhrasesCount();
-
+        Performansist Rachel = new Performansist(RachelPhrases,"Rachel");
+        Performansist Ross = new Performansist(RossPhrases,"Ross");
 
         Joey.start();
         Chandler.start();
         Monica.start();
         Phoebe.start();
-
-
-
+        Rachel.start();
+        Ross.start();
     }
 
-
-
+    /** Заполнение фраз для актёров */
     private static void fillPhrases(){
         JoeyPhrases.put(1,"Hey,hey.");
         ChandlerPhrases.put(2,"Hey.");
