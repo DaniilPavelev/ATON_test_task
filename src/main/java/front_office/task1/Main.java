@@ -16,7 +16,7 @@ public class Main {
 
         fillPhrases();
 
-        /** Создание 6-ти потоков */
+        // Создание 6-ти потоков
         Performansist Joey = new Performansist(JoeyPhrases,"Joey");
         Performansist Chandler = new Performansist(ChandlerPhrases, "Chandler");
         Performansist Monica = new Performansist(MonicaPhrases, "Monica");
