@@ -27,7 +27,7 @@ public class Performansist extends Thread {
         phrasesCount = phrasesCount + phrases.size();
         this.name = name;
     }
-    /**
+    /**k;kk
      * Выписывает в косноль фразу
      *
      * @param n номер фразы в сценке
